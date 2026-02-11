@@ -1,0 +1,8 @@
+services:
+    brctx.xrealip.listener:
+        class: brctx\xrealip\event\main_listener
+        arguments:
+            - '@request'
+            - '@cache'
+        tags:
+            - { name: event.listener }
