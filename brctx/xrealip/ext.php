@@ -16,7 +16,7 @@ class ext extends base
 	/**
 	 * Check whether the extension can be enabled.
 	 * Provides meaningful(s) error message(s) and the back-link on failure.
-	 * CLI and 3.1/3.2 compatible
+	 * CLI and 3.3 compatible
 	 *
 	 * @return bool
 	 */
@@ -63,7 +63,6 @@ class ext extends base
 		
 		// Check for reverse proxy specific headers
 		$cf_headers = [
-			'X_REAL_IP',
 			'X_FORWARDED_FOR',
 		];
 		
