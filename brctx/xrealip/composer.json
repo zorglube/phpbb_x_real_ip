@@ -22,7 +22,7 @@
     "extra": {
         "display-name": "X Real IP",
         "soft-require": {
-            "phpbb/phpbb": ">=3.3.*"
+            "phpbb/phpbb": ">=3.3.0"
         }
     }
 }
