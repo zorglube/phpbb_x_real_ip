@@ -63,7 +63,7 @@ class ext extends base
 		
 		// Check for reverse proxy specific headers
 		$cf_headers = [
-			'X_FORWARDED_FOR',
+			'HTTP_X_FORWARDED_FOR',
 		];
 		
 		$cf_detected = 0;
