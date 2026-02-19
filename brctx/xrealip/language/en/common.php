@@ -18,6 +18,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-    'ACP_REVERSE_PROXY'        => 'Reverse Proxy IP',
-    'ACP_REVERSE_PROXY_NOTICE' => '<div class="phpinfo"><p>There are no specific settings for this extension. The IP addresses are now all normilized and will be the real users IP. Enjoy!<br />You might get kicked out from the ACP after you click away from this page. It is totally normal as your current IP is mormilized. Login again.</p></div>',
+    'ACP_REVERSE_PROXY'				=> 'Reverse Proxy IP',
+    'ACP_REVERSE_PROXY_NOTICE'		=> '<div class="phpinfo"><p>There are no specific settings for this extension. The IP addresses are now all normilized and will be the real users IP. Enjoy!<br />You might get kicked out from the ACP after you click away from this page. It is totally normal as your current IP is mormilized. Login again.</p></div>',
+    'ACP_XREALIP_LEGEND'			=> 'X Real IP',
+	'ACP_ACP_XREALIP_HEADER_NAME'	=> 'Name of the header that carry the IP.',
 ));

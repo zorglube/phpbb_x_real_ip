@@ -6,5 +6,6 @@
   4. Upload the first/new version into `ext/brctx/xrealip`
   5. go to the Admin Control Panel -> Customise -> Manage extensions
   6. Enable the extension `X Real IP` (this will run the necessary migrations and event updates)
+  7. Go to ... Setup the `HEADER` you want to map to the `IP`.
     
 If you replaced the files before disabling the extension, you'll probably get an error (blank page). Restore the files of the previous version and follow the recommended update guide above.
