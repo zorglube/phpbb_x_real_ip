@@ -2,6 +2,7 @@ services:
     brctx.xrealip.listener:
         class: brctx\xrealip\event\listener
         arguments:
-            - "@request"
+            - '@request'
+            - '@language'
         tags:
             - { name: event.listener }
