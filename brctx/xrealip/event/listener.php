@@ -18,8 +18,8 @@ class listener implements EventSubscriberInterface
 {
     /** @var \phpbb\request\request */
     protected $request;
-	/** @var config */
-	protected $config;
+    /** @var config */
+    protected $config;
 
     /**
     * Constructor
@@ -43,8 +43,8 @@ class listener implements EventSubscriberInterface
     public static function getSubscribedEvents()
     {
         return array(
-            'core.acp_board_config_edit_add'	=> 'add_xrealip_configs',
-            'core.session_ip_after' => 'forwarded_ip_support',
+            'core.acp_board_config_edit_add'    => 'add_xrealip_configs',
+            'core.session_ip_after'             => 'forwarded_ip_support',
         );
     }
 
